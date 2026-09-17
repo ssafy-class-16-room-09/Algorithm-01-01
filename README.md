@@ -4,7 +4,7 @@
 
 <!-- algo-study:board:start -->
 
-> 마지막 갱신: 2026-09-09 · 등록된 문제 2개
+> 마지막 갱신: 2026-09-17 · 등록된 문제 3개
 
 ### 🏆 제출 순위
 
@@ -13,6 +13,15 @@ _아직 제출된 풀이가 없습니다._
 ### 📚 주차별 문제
 
 <details open>
+<summary><b>week-09</b> (1문제)</summary>
+
+| 문제 | 이슈 | 제출 | 제출자 |
+| --- | --- | --- | --- |
+| [SWEA 7468 · 창용 마을 무리의 개수](https://swexpertacademy.com/main/talk/solvingClub/problemView.do?solveclubId=AaBayn5a0PrHBISr&contestProbId=AWngfZVa9XwDFAQU&probBoxId=AaBayn5a0PvHBISr&type=PROBLEM&problemBoxTitle=Club+Problem+box+01&problemBoxCnt=14) | [#8](https://github.com/ssafy-class-16-room-09/Algorithm-01-01/issues/8) | 0 | - |
+
+</details>
+
+<details>
 <summary><b>week-08</b> (1문제)</summary>
 
 | 문제 | 이슈 | 제출 | 제출자 |
