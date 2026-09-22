@@ -10,7 +10,8 @@
 
 | 순위 | 스터디원 | 푼 문제 | 진행률 |
 | --- | --- | --- | --- |
-| 🥇 | [@InaJeong73](https://github.com/InaJeong73) | 1 / 6 | 17% |
+| 🥇 | [@eunbin58](https://github.com/eunbin58) | 1 / 6 | 17% |
+| 🥈 | [@InaJeong73](https://github.com/InaJeong73) | 1 / 6 | 17% |
 
 ### 📚 주차별 문제
 
@@ -20,7 +21,7 @@
 | 문제 | 이슈 | 제출 | 제출자 |
 | --- | --- | --- | --- |
 | [프로그래머스 42861 · 섬 연결하기](https://school.programmers.co.kr/learn/courses/30/lessons/42861) | [#12](https://github.com/ssafy-class-16-room-09/Algorithm-01-01/issues/12) | 1 | [@InaJeong73](https://github.com/InaJeong73) |
-| [프로그래머스 43162 · 네트워크](https://school.programmers.co.kr/learn/courses/30/lessons/43162) | [#10](https://github.com/ssafy-class-16-room-09/Algorithm-01-01/issues/10) | 0 | - |
+| [프로그래머스 43162 · 네트워크](https://school.programmers.co.kr/learn/courses/30/lessons/43162) | [#10](https://github.com/ssafy-class-16-room-09/Algorithm-01-01/issues/10) | 1 | [@eunbin58](https://github.com/eunbin58) |
 | [프로그래머스 64063 · 호텔 방 배정](https://school.programmers.co.kr/learn/courses/30/lessons/64063) | [#14](https://github.com/ssafy-class-16-room-09/Algorithm-01-01/issues/14) | 0 | - |
 
 </details>
