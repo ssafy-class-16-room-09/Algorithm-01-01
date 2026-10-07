@@ -14,6 +14,7 @@ import {
   platformLabel,
   problemNumberFromUrl,
   leetcodeSlugFromUrl,
+  codetreeSlugFromUrl,
   problemPath,
   readProblemMeta,
   upsertComment,
@@ -115,10 +116,10 @@ export async function run({ github, context, core, fetchImpl = fetch }) {
     if (!/^https?:\/\//.test(url)) lineErrors.push('링크가 올바른 URL이 아닙니다');
 
     const pKey = urlPlatformKey(url);
-    if (!pKey) lineErrors.push('SWEA, 프로그래머스 또는 LeetCode 링크만 지원합니다');
+    if (!pKey) lineErrors.push('SWEA, 프로그래머스, LeetCode 또는 코드트리 링크만 지원합니다');
 
     let number = rawNumber;
-    if (!number) number = problemNumberFromUrl(url) || '';
+    if (!number) number = problemNumberFromUrl(url) || codetreeSlugFromUrl(url) || '';
 
     let title = rawTitle;
     const existingByUrl = pKey === 'leetcode' ? findProblemMetaByUrl(workspace, url) : null;
@@ -136,7 +137,7 @@ export async function run({ github, context, core, fetchImpl = fetch }) {
     }
 
     if (!/^[A-Za-z0-9_]+$/.test(number)) {
-      lineErrors.push('번호를 입력해 주세요 (SWEA는 직접 입력, 프로그래머스는 URL, LeetCode는 API에서 자동 추출됩니다)');
+      lineErrors.push('번호를 입력해 주세요 (SWEA는 직접 입력, 프로그래머스·코드트리는 URL, LeetCode는 API에서 자동 추출됩니다)');
     }
 
     if (!title && weekValid && pKey && /^[A-Za-z0-9_]+$/.test(number)) {

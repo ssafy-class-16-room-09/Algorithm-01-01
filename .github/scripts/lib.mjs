@@ -27,7 +27,7 @@ export function parseIssueForm(body = '') {
 }
 
 export function platformLabel(key) {
-  return key === 'swea' ? 'SWEA' : key === 'pgs' ? '프로그래머스' : key === 'leetcode' ? 'LeetCode' : key;
+  return key === 'swea' ? 'SWEA' : key === 'pgs' ? '프로그래머스' : key === 'leetcode' ? 'LeetCode' : key === 'ct' ? '코드트리' : key;
 }
 
 /** 문제 링크 도메인으로부터 플랫폼을 추정한다. 알 수 없는 도메인이면 null. */
@@ -41,6 +41,7 @@ export function urlPlatformKey(url = '') {
   if (hostname === 'swexpertacademy.com' || hostname.endsWith('.swexpertacademy.com')) return 'swea';
   if (hostname === 'programmers.co.kr' || hostname.endsWith('.programmers.co.kr')) return 'pgs';
   if (hostname === 'leetcode.com' || hostname === 'www.leetcode.com') return 'leetcode';
+  if (hostname === 'codetree.ai' || hostname.endsWith('.codetree.ai')) return 'ct';
   return null;
 }
 
@@ -58,6 +59,21 @@ export function leetcodeSlugFromUrl(url = '') {
     if (urlPlatformKey(url) !== 'leetcode') return null;
     const match = parsed.pathname.match(/^\/problems\/([A-Za-z0-9-]+)(?:\/|$)/);
     return match ? match[1] : null;
+  } catch {
+    return null;
+  }
+}
+
+/**
+ * 코드트리 문제 URL(.../problems/{slug}/... 또는 .../curated-cards/{slug}/...)에서 슬러그를 추출한다.
+ * 폴더명 규칙([A-Za-z0-9_])에 맞춰 하이픈은 밑줄로 바꾼다. 추출할 수 없으면 null.
+ */
+export function codetreeSlugFromUrl(url = '') {
+  try {
+    const parsed = new URL(url);
+    if (urlPlatformKey(url) !== 'ct') return null;
+    const match = parsed.pathname.match(/\/(?:problems|curated-cards)\/([A-Za-z0-9_-]+)(?:\/|$)/);
+    return match ? match[1].replace(/-/g, '_') : null;
   } catch {
     return null;
   }

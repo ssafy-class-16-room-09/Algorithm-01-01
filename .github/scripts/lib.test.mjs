@@ -5,6 +5,7 @@ import path from 'node:path';
 import { test } from 'node:test';
 import {
   checklistMarker,
+  codetreeSlugFromUrl,
   findProblemDirsByParentIssue,
   isSolutionFile,
   leetcodeSlugFromUrl,
@@ -138,4 +139,18 @@ test('findProblemDirsByParentIssue: .problem.json의 parentIssue로 폴더를 �
   } finally {
     fs.rmSync(workspace, { recursive: true, force: true });
   }
+});
+
+test('urlPlatformKey: 코드트리 도메인은 ct로 판별한다', () => {
+  assert.equal(urlPlatformKey('https://www.codetree.ai/training-field/frequent-problems/problems/omakase/description'), 'ct');
+  assert.equal(urlPlatformKey('https://codetree.ai/x'), 'ct');
+  assert.equal(urlPlatformKey('https://evilcodetree.ai/x'), null);
+});
+
+test('codetreeSlugFromUrl: /problems/{slug}에서 추출하고 하이픈은 밑줄로 바꾼다', () => {
+  assert.equal(codetreeSlugFromUrl('https://www.codetree.ai/training-field/frequent-problems/problems/omakase/description?page=1'), 'omakase');
+  assert.equal(codetreeSlugFromUrl('https://www.codetree.ai/ko/problems/two-sum'), 'two_sum');
+  assert.equal(codetreeSlugFromUrl('https://www.codetree.ai/ko/trails/complete/curated-cards/challenge-thousand-stops/description'), 'challenge_thousand_stops');
+  assert.equal(codetreeSlugFromUrl('https://www.codetree.ai/ko/dashboard'), null);
+  assert.equal(codetreeSlugFromUrl('https://example.com/problems/omakase'), null);
 });

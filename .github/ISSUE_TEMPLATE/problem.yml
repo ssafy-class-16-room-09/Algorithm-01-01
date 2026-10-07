@@ -23,17 +23,18 @@ body:
     attributes:
       label: 문제 목록
       description: |
-        프로그래머스와 LeetCode는 링크만 한 줄씩 적어도 됩니다 (제목·번호를 자동으로 채웁니다).
+        프로그래머스와 LeetCode는 링크만 한 줄씩 적어도 됩니다 (제목·번호를 자동으로 채웁니다). 코드트리는 링크와 제목을 적습니다.
         그 외에는 한 줄에 문제 하나씩, `|`(파이프)로 구분해서 입력하세요.
         형식: `링크 | 제목(선택) | 번호(선택) | 난이도(선택) | 마감일(선택)`
-        - 링크: SWEA(swexpertacademy.com), 프로그래머스(programmers.co.kr) 또는 LeetCode(leetcode.com) 링크를 지원합니다.
-        - 제목: 프로그래머스와 LeetCode는 비워 두면 문제 페이지/API에서 자동으로 가져옵니다. SWEA는 직접 입력해야 합니다.
-        - 번호: SWEA는 직접 입력해야 합니다. 프로그래머스는 URL에서, LeetCode는 API에서 자동 추출됩니다.
+        - 링크: SWEA(swexpertacademy.com), 프로그래머스(programmers.co.kr), LeetCode(leetcode.com) 또는 코드트리(codetree.ai) 링크를 지원합니다.
+        - 제목: 프로그래머스와 LeetCode는 비워 두면 문제 페이지/API에서 자동으로 가져옵니다. SWEA와 코드트리는 직접 입력해야 합니다.
+        - 번호: SWEA는 직접 입력해야 합니다. 프로그래머스·코드트리는 URL에서, LeetCode는 API에서 자동 추출됩니다. (코드트리는 `/curated-cards/{슬러그}` 또는 `/problems/{슬러그}` 링크일 때 자동 추출, 아니면 직접 입력)
         - 난이도 / 마감일: 문제마다 다르면 각 줄에, 비워도 됩니다.
       placeholder: |
         https://school.programmers.co.kr/learn/courses/30/lessons/42627
         https://leetcode.com/problems/two-sum/
         https://school.programmers.co.kr/learn/courses/30/lessons/12912 | | | Lv.1 | 2026-08-10
+        https://www.codetree.ai/ko/trails/complete/curated-cards/challenge-thousand-stops/description | 천 개의 정거장
         https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=... | 백만 장자 프로젝트 | 1859 | D2 |
     validations:
       required: true

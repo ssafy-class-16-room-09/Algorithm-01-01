@@ -163,7 +163,7 @@ test('지원하지 않는 플랫폼 링크는 등록이 실패한다', async () 
   const core = makeCore();
   await registerRun({ github, context: issueContext(OWNER, REPO, parent.number, bad), core });
   assert.ok(core._outputs.__failed);
-  assert.match(core._outputs.__failed, /SWEA, 프로그래머스 또는 LeetCode/);
+  assert.match(core._outputs.__failed, /SWEA, 프로그래머스, LeetCode 또는 코드트리/);
 });
 
 test('LeetCode 링크만 입력하면 API에서 번호와 제목을 가져와 폴더와 sub-issue를 만든다', async () => {
@@ -318,4 +318,52 @@ test('목록에서 줄을 빼도 제출물이 있으면 폴더를 지우지 않�
   await registerRun({ github, context: issueContext(OWNER, REPO, parent.number, bV2), core: makeCore() });
 
   assert.equal(fs.existsSync(path.join(workspace, 'solutions/week-01/pgs-222')), true);
+});
+
+test('코드트리 링크는 슬러그를 번호로 쓰고 제목은 직접 입력받아 폴더와 sub-issue를 만든다', async () => {
+  const { data: parent } = await github.rest.issues.create({ title: '[문제] 코드트리' });
+  const b = body(1, 'https://www.codetree.ai/training-field/frequent-problems/problems/omakase/description | 오마카세');
+  const core = makeCore();
+  await registerRun({ github, context: issueContext(OWNER, REPO, parent.number, b), core });
+
+  assert.equal(core._outputs.__failed, undefined);
+  const meta = readMeta('solutions/week-01/ct-omakase');
+  assert.equal(meta.platform, 'ct');
+  assert.equal(meta.platformLabel, '코드트리');
+  assert.equal(meta.number, 'omakase');
+  assert.equal(meta.title, '오마카세');
+});
+
+test('코드트리 curated-cards 링크도 슬러그를 번호로 쓴다', async () => {
+  const { data: parent } = await github.rest.issues.create({ title: '[문제] 코드트리' });
+  const b = body(
+    1,
+    [
+      'https://www.codetree.ai/ko/trails/complete/curated-cards/intro-shortest-path-to-each-vertex/description | 각 정점까지의 최단 경로',
+      'https://www.codetree.ai/ko/trails/complete/curated-cards/challenge-thousand-stops/description | 천 개의 정거장',
+    ].join('\n'),
+  );
+  const core = makeCore();
+  await registerRun({ github, context: issueContext(OWNER, REPO, parent.number, b), core });
+  assert.equal(core._outputs.__failed, undefined);
+  assert.equal(readMeta('solutions/week-01/ct-intro_shortest_path_to_each_vertex').title, '각 정점까지의 최단 경로');
+  assert.equal(readMeta('solutions/week-01/ct-challenge_thousand_stops').title, '천 개의 정거장');
+});
+
+test('코드트리 링크에서 슬러그를 못 뽑으면 번호를 직접 입력하도록 안내한다', async () => {
+  const { data: parent } = await github.rest.issues.create({ title: '[문제] 코드트리' });
+  const b = body(1, 'https://www.codetree.ai/ko/dashboard | 대시보드');
+  const core = makeCore();
+  await registerRun({ github, context: issueContext(OWNER, REPO, parent.number, b), core });
+  assert.ok(core._outputs.__failed);
+  assert.match(core._outputs.__failed, /번호를 입력해 주세요/);
+});
+
+test('코드트리 링크는 번호를 직접 적으면 그 번호를 쓴다', async () => {
+  const { data: parent } = await github.rest.issues.create({ title: '[문제] 코드트리' });
+  const b = body(1, 'https://www.codetree.ai/ko/dashboard | 챌린지 | ct_x');
+  const core = makeCore();
+  await registerRun({ github, context: issueContext(OWNER, REPO, parent.number, b), core });
+  assert.equal(core._outputs.__failed, undefined);
+  assert.equal(readMeta('solutions/week-01/ct-ct_x').number, 'ct_x');
 });
