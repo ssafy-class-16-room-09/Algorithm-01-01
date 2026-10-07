@@ -106,7 +106,7 @@ solutions/
 
 <!-- algo-study:board:start -->
 
-> 마지막 갱신: 2026-10-07 · 등록된 문제 1개
+> 마지막 갱신: 2026-10-07 · 등록된 문제 2개
 
 ### 🏆 제출 순위
 
@@ -115,11 +115,12 @@ _아직 제출된 풀이가 없습니다._
 ### 📚 주차별 문제
 
 <details open>
-<summary><b>week-01</b> (1문제)</summary>
+<summary><b>week-01</b> (2문제)</summary>
 
 | 문제 | 이슈 | 제출 | 제출자 |
 | --- | --- | --- | --- |
 | [코드트리 intro_shortest_path_to_each_vertex · 각 정점까지의 최단 경로](https://www.codetree.ai/ko/trails/complete/curated-cards/intro-shortest-path-to-each-vertex/introduction) | [#27](https://github.com/ssafy-class-16-room-09/Algorithm-01-01/issues/27) | 0 | - |
+| [프로그래머스 12914 · 멀리 뛰기](https://school.programmers.co.kr/learn/courses/30/lessons/12914) | [#29](https://github.com/ssafy-class-16-room-09/Algorithm-01-01/issues/29) | 0 | - |
 
 </details>
 
