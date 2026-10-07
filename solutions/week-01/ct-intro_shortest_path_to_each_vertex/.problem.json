@@ -1,0 +1,12 @@
+{
+  "issue": 27,
+  "parentIssue": 26,
+  "week": 1,
+  "platform": "ct",
+  "platformLabel": "코드트리",
+  "number": "intro_shortest_path_to_each_vertex",
+  "title": "각 정점까지의 최단 경로",
+  "url": "https://www.codetree.ai/ko/trails/complete/curated-cards/intro-shortest-path-to-each-vertex/introduction",
+  "difficulty": null,
+  "deadline": null
+}
