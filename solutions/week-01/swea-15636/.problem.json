@@ -1,0 +1,12 @@
+{
+  "issue": 35,
+  "parentIssue": 30,
+  "week": 1,
+  "platform": "swea",
+  "platformLabel": "SWEA",
+  "number": "15636",
+  "title": "가장 큰 안전한 집합",
+  "url": "https://swexpertacademy.com/main/code/problem/problemDetail.do?problemLevel=4&problemLevel=5&contestProbId=AYOCa5fqDBoDFATW&categoryId=AYOCa5fqDBoDFATW&categoryType=CODE&problemTitle=&orderBy=FIRST_REG_DATETIME&selectCodeLang=JAVA&select-1=5&pageSize=10&pageIndex=7",
+  "difficulty": "D5",
+  "deadline": "2026-10-13"
+}

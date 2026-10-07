@@ -1,0 +1,12 @@
+{
+  "issue": 32,
+  "parentIssue": 30,
+  "week": 1,
+  "platform": "pgs",
+  "platformLabel": "프로그래머스",
+  "number": "42839",
+  "title": "소수 찾기",
+  "url": "https://school.programmers.co.kr/learn/courses/30/lessons/42839",
+  "difficulty": "Lv2",
+  "deadline": "2026-10-13"
+}

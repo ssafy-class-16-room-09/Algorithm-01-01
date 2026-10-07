@@ -1,0 +1,12 @@
+{
+  "issue": 34,
+  "parentIssue": 30,
+  "week": 1,
+  "platform": "swea",
+  "platformLabel": "SWEA",
+  "number": "15623",
+  "title": "이중 최단 경로 문제",
+  "url": "https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AYOCL0GaCF4DFATW&categoryId=AYOCL0GaCF4DFATW&categoryType=CODE&problemTitle=%EC%9D%B4%EC%A4%91&orderBy=FIRST_REG_DATETIME&selectCodeLang=ALL&select-1=&pageSize=10&pageIndex=1#",
+  "difficulty": "D4",
+  "deadline": "2026-10-13"
+}
