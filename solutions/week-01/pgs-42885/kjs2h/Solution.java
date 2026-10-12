@@ -42,6 +42,7 @@ class Solution {
     }
 }
 
+/*
 -----죽은 코드의 무덤-----
 import java.util.*;
 
@@ -133,3 +134,4 @@ class Solution {
         return -1;
     }
 }
+*/
