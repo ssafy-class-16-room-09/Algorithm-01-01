@@ -112,7 +112,8 @@ solutions/
 
 | 순위 | 스터디원 | 푼 문제 | 진행률 |
 | --- | --- | --- | --- |
-| 🥇 | [@Taehoru](https://github.com/Taehoru) | 1 / 5 | 20% |
+| 🥇 | [@kjs2h](https://github.com/kjs2h) | 1 / 5 | 20% |
+| 🥈 | [@Taehoru](https://github.com/Taehoru) | 1 / 5 | 20% |
 
 ### 📚 주차별 문제
 
@@ -122,7 +123,7 @@ solutions/
 | 문제 | 이슈 | 제출 | 제출자 |
 | --- | --- | --- | --- |
 | [프로그래머스 42839 · 소수 찾기](https://school.programmers.co.kr/learn/courses/30/lessons/42839) | [#32](https://github.com/ssafy-class-16-room-09/Algorithm-01-01/issues/32) | 0 | - |
-| [프로그래머스 42885 · 구명보트](https://school.programmers.co.kr/learn/courses/30/lessons/42885) | [#31](https://github.com/ssafy-class-16-room-09/Algorithm-01-01/issues/31) | 1 | [@Taehoru](https://github.com/Taehoru) |
+| [프로그래머스 42885 · 구명보트](https://school.programmers.co.kr/learn/courses/30/lessons/42885) | [#31](https://github.com/ssafy-class-16-room-09/Algorithm-01-01/issues/31) | 2 | [@Taehoru](https://github.com/Taehoru), [@kjs2h](https://github.com/kjs2h) |
 | [프로그래머스 42890 · 후보키](https://school.programmers.co.kr/learn/courses/30/lessons/42890) | [#33](https://github.com/ssafy-class-16-room-09/Algorithm-01-01/issues/33) | 0 | - |
 | [SWEA 15623 · 이중 최단 경로 문제](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AYOCL0GaCF4DFATW&categoryId=AYOCL0GaCF4DFATW&categoryType=CODE&problemTitle=%EC%9D%B4%EC%A4%91&orderBy=FIRST_REG_DATETIME&selectCodeLang=ALL&select-1=&pageSize=10&pageIndex=1#) | [#34](https://github.com/ssafy-class-16-room-09/Algorithm-01-01/issues/34) | 0 | - |
 | [SWEA 15636 · 가장 큰 안전한 집합](https://swexpertacademy.com/main/code/problem/problemDetail.do?problemLevel=4&problemLevel=5&contestProbId=AYOCa5fqDBoDFATW&categoryId=AYOCa5fqDBoDFATW&categoryType=CODE&problemTitle=&orderBy=FIRST_REG_DATETIME&selectCodeLang=JAVA&select-1=5&pageSize=10&pageIndex=7) | [#35](https://github.com/ssafy-class-16-room-09/Algorithm-01-01/issues/35) | 0 | - |
