@@ -2,6 +2,8 @@
 
 - 문제 링크: https://school.programmers.co.kr/learn/courses/30/lessons/142085
 - 주차: week-02
+- 난이도: Lv2
+- 마감일: 2026-10-15
 - 논의 이슈: [#52](https://github.com/ssafy-class-16-room-09/Algorithm-01-01/issues/52) (상위 이슈: [#51](https://github.com/ssafy-class-16-room-09/Algorithm-01-01/issues/51))
 
 ## 제출 방법
