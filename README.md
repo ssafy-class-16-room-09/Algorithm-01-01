@@ -106,24 +106,25 @@ solutions/
 
 <!-- algo-study:board:start -->
 
-> 마지막 갱신: 2026-10-15 · 등록된 문제 6개
+> 마지막 갱신: 2026-10-15 · 등록된 문제 7개
 
 ### 🏆 제출 순위
 
 | 순위 | 스터디원 | 푼 문제 | 진행률 |
 | --- | --- | --- | --- |
-| 🥇 | [@kjs2h](https://github.com/kjs2h) | 2 / 6 | 33% |
-| 🥈 | [@sejkim2](https://github.com/sejkim2) | 2 / 6 | 33% |
-| 🥉 | [@Taehoru](https://github.com/Taehoru) | 1 / 6 | 17% |
+| 🥇 | [@kjs2h](https://github.com/kjs2h) | 2 / 7 | 29% |
+| 🥈 | [@sejkim2](https://github.com/sejkim2) | 2 / 7 | 29% |
+| 🥉 | [@Taehoru](https://github.com/Taehoru) | 1 / 7 | 14% |
 
 ### 📚 주차별 문제
 
 <details open>
-<summary><b>week-02</b> (1문제)</summary>
+<summary><b>week-02</b> (2문제)</summary>
 
 | 문제 | 이슈 | 제출 | 제출자 |
 | --- | --- | --- | --- |
 | [프로그래머스 142085 · 디펜스 게임](https://school.programmers.co.kr/learn/courses/30/lessons/142085) | [#52](https://github.com/ssafy-class-16-room-09/Algorithm-01-01/issues/52) | 0 | - |
+| [프로그래머스 155651 · 호텔 대실](https://school.programmers.co.kr/learn/courses/30/lessons/155651) | [#54](https://github.com/ssafy-class-16-room-09/Algorithm-01-01/issues/54) | 0 | - |
 
 </details>
 
