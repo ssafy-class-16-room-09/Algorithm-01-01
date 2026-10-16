@@ -106,17 +106,30 @@ solutions/
 
 <!-- algo-study:board:start -->
 
-> 마지막 갱신: 2026-10-15 · 등록된 문제 7개
+> 마지막 갱신: 2026-10-16 · 등록된 문제 10개
 
 ### 🏆 제출 순위
 
 | 순위 | 스터디원 | 푼 문제 | 진행률 |
 | --- | --- | --- | --- |
-| 🥇 | [@kjs2h](https://github.com/kjs2h) | 2 / 7 | 29% |
-| 🥈 | [@sejkim2](https://github.com/sejkim2) | 2 / 7 | 29% |
-| 🥉 | [@Taehoru](https://github.com/Taehoru) | 1 / 7 | 14% |
+| 🥇 | [@kjs2h](https://github.com/kjs2h) | 2 / 10 | 20% |
+| 🥈 | [@sejkim2](https://github.com/sejkim2) | 2 / 10 | 20% |
+| 🥉 | [@Taehoru](https://github.com/Taehoru) | 1 / 10 | 10% |
 
 ### 📚 주차별 문제
+
+<details open>
+<summary><b>week-02</b> (5문제)</summary>
+
+| 문제 | 이슈 | 제출 | 제출자 |
+| --- | --- | --- | --- |
+| [코드트리 challenge_rod_cutting · 막대기 나누기](https://www.codetree.ai/ko/trails/complete/curated-cards/challenge-rod-cutting/description) | [#56](https://github.com/ssafy-class-16-room-09/Algorithm-01-01/issues/56) | 0 | - |
+| [프로그래머스 12946 · 하노이의 탑](https://school.programmers.co.kr/learn/courses/30/lessons/12946) | [#59](https://github.com/ssafy-class-16-room-09/Algorithm-01-01/issues/59) | 0 | - |
+| [프로그래머스 155651 · 호텔 대실](https://school.programmers.co.kr/learn/courses/30/lessons/155651) | [#58](https://github.com/ssafy-class-16-room-09/Algorithm-01-01/issues/58) | 0 | - |
+| [프로그래머스 1835 · 단체사진 찍기](https://school.programmers.co.kr/learn/courses/30/lessons/1835) | [#57](https://github.com/ssafy-class-16-room-09/Algorithm-01-01/issues/57) | 0 | - |
+| [SWEA 1210 · Ladder-1](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV14ABYKADACFAYh) | [#60](https://github.com/ssafy-class-16-room-09/Algorithm-01-01/issues/60) | 0 | - |
+
+</details>
 
 <details>
 <summary><b>week-01</b> (5문제)</summary>

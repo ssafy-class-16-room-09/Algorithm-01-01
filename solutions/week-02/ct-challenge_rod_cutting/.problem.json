@@ -1,0 +1,12 @@
+{
+  "issue": 56,
+  "parentIssue": 55,
+  "week": 2,
+  "platform": "ct",
+  "platformLabel": "코드트리",
+  "number": "challenge_rod_cutting",
+  "title": "막대기 나누기",
+  "url": "https://www.codetree.ai/ko/trails/complete/curated-cards/challenge-rod-cutting/description",
+  "difficulty": "Lv.1",
+  "deadline": "2026-10-21"
+}
