@@ -118,16 +118,6 @@ solutions/
 
 ### 📚 주차별 문제
 
-<details open>
-<summary><b>week-02</b> (2문제)</summary>
-
-| 문제 | 이슈 | 제출 | 제출자 |
-| --- | --- | --- | --- |
-| [프로그래머스 142085 · 디펜스 게임](https://school.programmers.co.kr/learn/courses/30/lessons/142085) | [#52](https://github.com/ssafy-class-16-room-09/Algorithm-01-01/issues/52) | 0 | - |
-| [프로그래머스 155651 · 호텔 대실](https://school.programmers.co.kr/learn/courses/30/lessons/155651) | [#54](https://github.com/ssafy-class-16-room-09/Algorithm-01-01/issues/54) | 0 | - |
-
-</details>
-
 <details>
 <summary><b>week-01</b> (5문제)</summary>
 
