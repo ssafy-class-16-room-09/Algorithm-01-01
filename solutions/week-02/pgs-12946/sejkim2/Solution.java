@@ -6,6 +6,7 @@ class Solution {
 
     public ArrayList<int[]> solution(int n) {
         N = n;
+
         hanoi(N, 1, 2, 3);
         return list;
     }
