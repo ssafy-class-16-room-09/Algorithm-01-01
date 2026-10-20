@@ -113,7 +113,7 @@ solutions/
 | 순위 | 스터디원 | 푼 문제 | 진행률 |
 | --- | --- | --- | --- |
 | 🥇 | [@kjs2h](https://github.com/kjs2h) | 4 / 10 | 40% |
-| 🥈 | [@pjsWorkingPlus](https://github.com/pjsWorkingPlus) | 3 / 10 | 30% |
+| 🥈 | [@pjsWorkingPlus](https://github.com/pjsWorkingPlus) | 4 / 10 | 40% |
 | 🥉 | [@sejkim2](https://github.com/sejkim2) | 3 / 10 | 30% |
 | 4 | [@Taehoru](https://github.com/Taehoru) | 1 / 10 | 10% |
 
@@ -139,7 +139,7 @@ solutions/
 | --- | --- | --- | --- |
 | [프로그래머스 42839 · 소수 찾기](https://school.programmers.co.kr/learn/courses/30/lessons/42839) | [#32](https://github.com/ssafy-class-16-room-09/Algorithm-01-01/issues/32) | 3 | [@kjs2h](https://github.com/kjs2h), [@pjsWorkingPlus](https://github.com/pjsWorkingPlus), [@sejkim2](https://github.com/sejkim2) |
 | [프로그래머스 42885 · 구명보트](https://school.programmers.co.kr/learn/courses/30/lessons/42885) | [#31](https://github.com/ssafy-class-16-room-09/Algorithm-01-01/issues/31) | 4 | [@Taehoru](https://github.com/Taehoru), [@kjs2h](https://github.com/kjs2h), [@pjsWorkingPlus](https://github.com/pjsWorkingPlus), [@sejkim2](https://github.com/sejkim2) |
-| [프로그래머스 42890 · 후보키](https://school.programmers.co.kr/learn/courses/30/lessons/42890) | [#33](https://github.com/ssafy-class-16-room-09/Algorithm-01-01/issues/33) | 1 | [@kjs2h](https://github.com/kjs2h) |
+| [프로그래머스 42890 · 후보키](https://school.programmers.co.kr/learn/courses/30/lessons/42890) | [#33](https://github.com/ssafy-class-16-room-09/Algorithm-01-01/issues/33) | 2 | [@kjs2h](https://github.com/kjs2h), [@pjsWorkingPlus](https://github.com/pjsWorkingPlus) |
 | [SWEA 15623 · 이중 최단 경로 문제](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AYOCL0GaCF4DFATW&categoryId=AYOCL0GaCF4DFATW&categoryType=CODE&problemTitle=%EC%9D%B4%EC%A4%91&orderBy=FIRST_REG_DATETIME&selectCodeLang=ALL&select-1=&pageSize=10&pageIndex=1#) | [#34](https://github.com/ssafy-class-16-room-09/Algorithm-01-01/issues/34) | 3 | [@kjs2h](https://github.com/kjs2h), [@pjsWorkingPlus](https://github.com/pjsWorkingPlus), [@sejkim2](https://github.com/sejkim2) |
 | [SWEA 15636 · 가장 큰 안전한 집합](https://swexpertacademy.com/main/code/problem/problemDetail.do?problemLevel=4&problemLevel=5&contestProbId=AYOCa5fqDBoDFATW&categoryId=AYOCa5fqDBoDFATW&categoryType=CODE&problemTitle=&orderBy=FIRST_REG_DATETIME&selectCodeLang=JAVA&select-1=5&pageSize=10&pageIndex=7) | [#35](https://github.com/ssafy-class-16-room-09/Algorithm-01-01/issues/35) | 0 | - |
 
