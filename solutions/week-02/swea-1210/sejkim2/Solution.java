@@ -23,6 +23,7 @@ public class Solution {
 			
 			boolean flag = false;
 			answer = 0;
+			//위에서 하나씩 사다리 태워서 정답 찾으면 종료
 			for(int i = 0; i<SIZE; i++) {
 				if (map[0][i] == 1)
 					flag = find(0, i);
@@ -34,10 +35,12 @@ public class Solution {
 		}
 		bw.flush();
 	}
-	
+
+	//위에서 아래로 내리면서 사다리 타기
 	static boolean find(int row, int col) {
 		int start = col;
 		while (row < SIZE - 1) {
+			//양옆을 확인해서 이동 가능하면 쭉 이동 시키고 종료
 			for(int i = 0; i<2; i++) {
 				int nextCol = col + directCol[i];
 				if (nextCol < 0 || nextCol >= SIZE || map[row][nextCol] == 0)
@@ -47,6 +50,7 @@ public class Solution {
 				col = nextCol;
 				break;
 			}
+			//아래로 내림
 			row++;
 		}
 		if (map[row][col] == 2) {
