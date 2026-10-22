@@ -113,8 +113,8 @@ solutions/
 | 순위 | 스터디원 | 푼 문제 | 진행률 |
 | --- | --- | --- | --- |
 | 🥇 | [@kjs2h](https://github.com/kjs2h) | 5 / 10 | 50% |
-| 🥈 | [@pjsWorkingPlus](https://github.com/pjsWorkingPlus) | 4 / 10 | 40% |
-| 🥉 | [@sejkim2](https://github.com/sejkim2) | 4 / 10 | 40% |
+| 🥈 | [@sejkim2](https://github.com/sejkim2) | 5 / 10 | 50% |
+| 🥉 | [@pjsWorkingPlus](https://github.com/pjsWorkingPlus) | 4 / 10 | 40% |
 | 4 | [@Taehoru](https://github.com/Taehoru) | 2 / 10 | 20% |
 | 5 | [@eunbin58](https://github.com/eunbin58) | 1 / 10 | 10% |
 
@@ -129,7 +129,7 @@ solutions/
 | [프로그래머스 12946 · 하노이의 탑](https://school.programmers.co.kr/learn/courses/30/lessons/12946) | [#59](https://github.com/ssafy-class-16-room-09/Algorithm-01-01/issues/59) | 0 | - |
 | [프로그래머스 155651 · 호텔 대실](https://school.programmers.co.kr/learn/courses/30/lessons/155651) | [#58](https://github.com/ssafy-class-16-room-09/Algorithm-01-01/issues/58) | 0 | - |
 | [프로그래머스 1835 · 단체사진 찍기](https://school.programmers.co.kr/learn/courses/30/lessons/1835) | [#57](https://github.com/ssafy-class-16-room-09/Algorithm-01-01/issues/57) | 0 | - |
-| [SWEA 1210 · Ladder-1](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV14ABYKADACFAYh) | [#60](https://github.com/ssafy-class-16-room-09/Algorithm-01-01/issues/60) | 0 | - |
+| [SWEA 1210 · Ladder-1](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV14ABYKADACFAYh) | [#60](https://github.com/ssafy-class-16-room-09/Algorithm-01-01/issues/60) | 1 | [@sejkim2](https://github.com/sejkim2) |
 
 </details>
 
