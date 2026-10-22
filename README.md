@@ -106,13 +106,13 @@ solutions/
 
 <!-- algo-study:board:start -->
 
-> 마지막 갱신: 2026-10-20 · 등록된 문제 10개
+> 마지막 갱신: 2026-10-22 · 등록된 문제 10개
 
 ### 🏆 제출 순위
 
 | 순위 | 스터디원 | 푼 문제 | 진행률 |
 | --- | --- | --- | --- |
-| 🥇 | [@kjs2h](https://github.com/kjs2h) | 4 / 10 | 40% |
+| 🥇 | [@kjs2h](https://github.com/kjs2h) | 5 / 10 | 50% |
 | 🥈 | [@pjsWorkingPlus](https://github.com/pjsWorkingPlus) | 4 / 10 | 40% |
 | 🥉 | [@sejkim2](https://github.com/sejkim2) | 3 / 10 | 30% |
 | 4 | [@Taehoru](https://github.com/Taehoru) | 2 / 10 | 20% |
@@ -124,7 +124,7 @@ solutions/
 
 | 문제 | 이슈 | 제출 | 제출자 |
 | --- | --- | --- | --- |
-| [코드트리 challenge_rod_cutting · 막대기 나누기](https://www.codetree.ai/ko/trails/complete/curated-cards/challenge-rod-cutting/description) | [#56](https://github.com/ssafy-class-16-room-09/Algorithm-01-01/issues/56) | 0 | - |
+| [코드트리 challenge_rod_cutting · 막대기 나누기](https://www.codetree.ai/ko/trails/complete/curated-cards/challenge-rod-cutting/description) | [#56](https://github.com/ssafy-class-16-room-09/Algorithm-01-01/issues/56) | 1 | [@kjs2h](https://github.com/kjs2h) |
 | [프로그래머스 12946 · 하노이의 탑](https://school.programmers.co.kr/learn/courses/30/lessons/12946) | [#59](https://github.com/ssafy-class-16-room-09/Algorithm-01-01/issues/59) | 0 | - |
 | [프로그래머스 155651 · 호텔 대실](https://school.programmers.co.kr/learn/courses/30/lessons/155651) | [#58](https://github.com/ssafy-class-16-room-09/Algorithm-01-01/issues/58) | 0 | - |
 | [프로그래머스 1835 · 단체사진 찍기](https://school.programmers.co.kr/learn/courses/30/lessons/1835) | [#57](https://github.com/ssafy-class-16-room-09/Algorithm-01-01/issues/57) | 0 | - |
