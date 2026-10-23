@@ -1,3 +1,4 @@
+
 name: 제출 현황 갱신
 
 on:
@@ -15,12 +16,18 @@ concurrency:
 
 jobs:
   update:
-    if: github.event.pull_request.merged == true
+    if: >-
+      github.event.pull_request.merged == true
+      && !startsWith(github.event.pull_request.head.ref, 'dashboard/')
+
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
         with:
           ref: ${{ github.event.repository.default_branch }}
+          fetch-depth: 0
 
       - name: 이슈 체크리스트 갱신
         uses: actions/github-script@v7
@@ -29,14 +36,31 @@ jobs:
             const mod = await import(`file://${process.env.GITHUB_WORKSPACE}/.github/scripts/on-merged.mjs`);
             await mod.run({ github, context, core });
 
-      - name: 현황판 갱신
+      - name: 현황판 갱신 및 작업 브랜치 Push
         env:
-          BRANCH: ${{ github.event.repository.default_branch }}
           PR: ${{ github.event.pull_request.number }}
         run: |
           set -euo pipefail
+
           node .github/scripts/build-leaderboard.mjs
-          bash .github/scripts/commit-and-push.sh \
-            "$BRANCH" \
-            "docs: 스터디 현황판 갱신 (#${PR})" \
-            README.md
+
+          git add README.md
+
+          if git diff --cached --quiet; then
+            echo "현황판에 변경사항 없음"
+            exit 0
+          fi
+
+          BRANCH="dashboard/pr-${PR}-${GITHUB_RUN_ID}"
+
+          git switch -c "$BRANCH"
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git commit -m "docs: 스터디 현황판 갱신 (#${PR})"
+
+          git push -u origin "$BRANCH"
+
+          echo "현황판 브랜치 Push 완료: $BRANCH"
+          echo "main 대상으로 PR을 생성하세요."
