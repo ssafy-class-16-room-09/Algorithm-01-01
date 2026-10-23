@@ -1,54 +1,81 @@
 import java.io.BufferedReader;
+import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.StringTokenizer;
-
-class Solution {
-    static final int N = 100;
-    static final BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-    static int[][] map;
-
-    public static void main(String[] args) throws Exception {
-        for (int testCase = 1; testCase <= 10; testCase++) {
-            int testCaseNumber = Integer.parseInt(br.readLine());
-            int destination = initMap();
-            int answer = findStart(destination);
-
-            System.out.println("#" + testCaseNumber + " " + answer);
+import java.nio.Buffer;
+import java.util.*;
+import java.io.FileInputStream;
+ 
+class Solution
+{
+    static final int N=100;
+    static int[][] map=null;
+    static BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
+    public static void main(String args[]) throws Exception
+    {
+        for(int test_case = 1; test_case <= 10; test_case++)
+        {
+            int T=Integer.parseInt(br.readLine());
+            int answer=-1;
+            int x=initMap();
+ 
+            answer=solution(x);
+ 
+            System.out.println("#"+test_case+" "+answer);
         }
     }
-
-    static int findStart(int x) {
-        int y = N - 1;
-
-        while (y > 0) {
-            map[y][x] = 0;
-
-            if (x > 0 && map[y][x - 1] == 1) {
-                x--;
-            } else if (x + 1 < N && map[y][x + 1] == 1) {
-                x++;
-            } else {
-                y--;
-            }
-        }
-
-        return x;
+ 
+    static int solution(int x){
+        int result=-1;
+ 
+        result=dfs(x,99);
+ 
+        return result;
     }
-
-    static int initMap() throws Exception {
-        int destination = -1;
-        map = new int[N][N];
-
-        for (int y = 0; y < N; y++) {
-            StringTokenizer st = new StringTokenizer(br.readLine());
-            for (int x = 0; x < N; x++) {
-                map[y][x] = Integer.parseInt(st.nextToken());
-                if (y == N - 1 && map[y][x] == 2) {
-                    destination = x;
+ 
+    static int[] rowD={1,-1,0};
+    static int[] colD={0,0,-1};
+ 
+    static int dfs(int x,int y){
+        if(y==0){
+            return x;
+        }
+        // 현재 위치를 벽으로 만들어 이후에 재방문 못하게 만듦
+        map[y][x]=0;
+        for(int i=0;i<3;i++){
+            int nextX=x+rowD[i];
+            int nextY=y+colD[i];
+            if(!isRange(nextX,nextY))
+                continue;
+            if(map[nextY][nextX]==0)
+                continue;
+             
+            return dfs(nextX,nextY);
+        }
+        return -1;
+    }
+    
+    // 탐색 범위 충족 여부 확인 
+    static boolean isRange(int nextX,int nextY){
+        if(nextX>=0&&nextX<N&&nextY>=0&&nextY<N)
+            return true;
+ 
+        return false;
+    }
+ 
+    static int initMap() throws IOException {
+        int dest=-1;
+        map=new int[100][100];
+        StringTokenizer st=null;
+        for(int i=0;i<100;i++){
+            st=new StringTokenizer(br.readLine()," ");
+            for(int j=0;j<100;j++){
+                map[i][j]=Integer.parseInt(st.nextToken());
+                if(i==99&&map[i][j]==2){
+                    dest=j;
                 }
             }
         }
-
-        return destination;
+        //System.out.println(dest);
+        return dest;
     }
 }
