@@ -41,7 +41,7 @@ import java.io.*;
 // 완전 탐색, dfs를 이용
 // 방문처리를 이용하여 중복 탐색 경로를 줄임
 
-class SolutionSwea1244
+class Solution
 {
     // 완탐으로 찾은 결과 중 가장 큰 숫자
     static int maxNum;
