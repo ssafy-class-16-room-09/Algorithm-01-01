@@ -113,7 +113,7 @@ solutions/
 | 순위 | 스터디원 | 푼 문제 | 진행률 |
 | --- | --- | --- | --- |
 | 🥇 | [@kjs2h](https://github.com/kjs2h) | 12 / 20 | 60% |
-| 🥈 | [@pjsWorkingPlus](https://github.com/pjsWorkingPlus) | 11 / 20 | 55% |
+| 🥈 | [@pjsWorkingPlus](https://github.com/pjsWorkingPlus) | 12 / 20 | 60% |
 | 🥉 | [@sejkim2](https://github.com/sejkim2) | 9 / 20 | 45% |
 | 4 | [@eunbin58](https://github.com/eunbin58) | 4 / 20 | 20% |
 | 5 | [@Taehoru](https://github.com/Taehoru) | 4 / 20 | 20% |
@@ -140,7 +140,7 @@ solutions/
 | --- | --- | --- | --- |
 | [코드트리 1644232 · 토스트 계란틀](https://www.codetree.ai/ko/frequent-problems/all/problems/toast-eggmold/description) | [#111](https://github.com/ssafy-class-16-room-09/Algorithm-01-01/issues/111) | 0 | - |
 | [프로그래머스 142085 · 디펜스 게임](https://school.programmers.co.kr/learn/courses/30/lessons/142085) | [#109](https://github.com/ssafy-class-16-room-09/Algorithm-01-01/issues/109) | 0 | - |
-| [프로그래머스 17680 · [1차] 캐시](https://school.programmers.co.kr/learn/courses/30/lessons/17680) | [#108](https://github.com/ssafy-class-16-room-09/Algorithm-01-01/issues/108) | 1 | [@kjs2h](https://github.com/kjs2h) |
+| [프로그래머스 17680 · [1차] 캐시](https://school.programmers.co.kr/learn/courses/30/lessons/17680) | [#108](https://github.com/ssafy-class-16-room-09/Algorithm-01-01/issues/108) | 2 | [@kjs2h](https://github.com/kjs2h), [@pjsWorkingPlus](https://github.com/pjsWorkingPlus) |
 | [프로그래머스 250121 · 데이터 분석](https://school.programmers.co.kr/learn/courses/30/lessons/250121) | [#107](https://github.com/ssafy-class-16-room-09/Algorithm-01-01/issues/107) | 4 | [@Taehoru](https://github.com/Taehoru), [@kjs2h](https://github.com/kjs2h), [@pjsWorkingPlus](https://github.com/pjsWorkingPlus), [@sejkim2](https://github.com/sejkim2) |
 | [SWEA 1244 · 최대 상금](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV15Khn6AN0CFAYD) | [#110](https://github.com/ssafy-class-16-room-09/Algorithm-01-01/issues/110) | 2 | [@kjs2h](https://github.com/kjs2h), [@pjsWorkingPlus](https://github.com/pjsWorkingPlus) |
 
