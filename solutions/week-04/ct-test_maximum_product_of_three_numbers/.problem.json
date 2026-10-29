@@ -1,0 +1,12 @@
+{
+  "issue": 141,
+  "parentIssue": 135,
+  "week": 4,
+  "platform": "ct",
+  "platformLabel": "코드트리",
+  "number": "test_maximum_product_of_three_numbers",
+  "title": "세 수의 최대 곱",
+  "url": "https://www.codetree.ai/ko/trails/complete/curated-cards/test-maximum-product-of-three-numbers/description",
+  "difficulty": "S3",
+  "deadline": "2026-11-04"
+}
