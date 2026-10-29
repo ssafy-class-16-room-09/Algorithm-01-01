@@ -154,3 +154,16 @@ test('codetreeSlugFromUrl: /problems/{slug}에서 추출하고 하이픈은 밑�
   assert.equal(codetreeSlugFromUrl('https://www.codetree.ai/ko/dashboard'), null);
   assert.equal(codetreeSlugFromUrl('https://example.com/problems/omakase'), null);
 });
+
+test('urlPlatformKey: 정올 도메인은 jungol로 판별한다', () => {
+  assert.equal(urlPlatformKey('https://jungol.co.kr/problem/1234'), 'jungol');
+  assert.equal(urlPlatformKey('https://www.jungol.co.kr/problem/1234'), 'jungol');
+  assert.equal(urlPlatformKey('https://eviljungol.co.kr/problem/1234'), null);
+});
+
+test('problemNumberFromUrl: 정올 /problem/{번호}에서 번호를 뽑는다', () => {
+  assert.equal(problemNumberFromUrl('https://jungol.co.kr/problem/1234'), '1234');
+  assert.equal(problemNumberFromUrl('https://www.jungol.co.kr/problem/1234?cid=1'), '1234');
+  assert.equal(problemNumberFromUrl('https://jungol.co.kr/course/1'), null);
+  assert.equal(problemNumberFromUrl('https://example.com/problem/1234'), null);
+});

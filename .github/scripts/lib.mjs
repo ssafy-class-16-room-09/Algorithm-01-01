@@ -27,7 +27,7 @@ export function parseIssueForm(body = '') {
 }
 
 export function platformLabel(key) {
-  return key === 'swea' ? 'SWEA' : key === 'pgs' ? '프로그래머스' : key === 'leetcode' ? 'LeetCode' : key === 'ct' ? '코드트리' : key;
+  return key === 'swea' ? 'SWEA' : key === 'pgs' ? '프로그래머스' : key === 'leetcode' ? 'LeetCode' : key === 'ct' ? '코드트리' : key === 'jungol' ? '정올' : key;
 }
 
 /** 문제 링크 도메인으로부터 플랫폼을 추정한다. 알 수 없는 도메인이면 null. */
@@ -42,13 +42,16 @@ export function urlPlatformKey(url = '') {
   if (hostname === 'programmers.co.kr' || hostname.endsWith('.programmers.co.kr')) return 'pgs';
   if (hostname === 'leetcode.com' || hostname === 'www.leetcode.com') return 'leetcode';
   if (hostname === 'codetree.ai' || hostname.endsWith('.codetree.ai')) return 'ct';
+  if (hostname === 'jungol.co.kr' || hostname.endsWith('.jungol.co.kr')) return 'jungol';
   return null;
 }
 
-/** 프로그래머스 링크에서는 문제 번호를 뽑아낼 수 있다. SWEA/LeetCode는 URL에 번호가 없다. */
+/** 프로그래머스·정올 링크에서는 문제 번호를 뽑아낼 수 있다. SWEA/LeetCode는 URL에 번호가 없다. */
 export function problemNumberFromUrl(url = '') {
   const pgs = url.match(/lessons\/(\d+)/);
   if (pgs) return pgs[1];
+  const jungol = urlPlatformKey(url) === 'jungol' && url.match(/\/problem\/(\d+)/);
+  if (jungol) return jungol[1];
   return null;
 }
 
