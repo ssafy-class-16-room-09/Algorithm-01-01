@@ -1,17 +1,17 @@
-# 코드트리 test_maximum_product_of_three_numbers · 세 수의 최대 곱
+# 코드트리 50713 · 세 수의 최대 곱
 
 - 문제 링크: https://www.codetree.ai/ko/trails/complete/curated-cards/test-maximum-product-of-three-numbers/description
 - 주차: week-04
 - 난이도: S3
 - 마감일: 2026-11-04
-- 논의 이슈: [#141](https://github.com/ssafy-class-16-room-09/Algorithm-01-01/issues/141) (상위 이슈: [#135](https://github.com/ssafy-class-16-room-09/Algorithm-01-01/issues/135))
+- 논의 이슈: [#142](https://github.com/ssafy-class-16-room-09/Algorithm-01-01/issues/142) (상위 이슈: [#135](https://github.com/ssafy-class-16-room-09/Algorithm-01-01/issues/135))
 
 ## 제출 방법
 
 ```bash
-git switch -c solve/week-04-ct-test_maximum_product_of_three_numbers-$(git config user.name)
-mkdir -p solutions/week-04/ct-test_maximum_product_of_three_numbers/<본인-github-아이디>
-# solutions/week-04/ct-test_maximum_product_of_three_numbers/<본인-github-아이디>/Solution.java 또는 Solution.py 에 풀이 작성
+git switch -c solve/week-04-ct-50713-$(git config user.name)
+mkdir -p solutions/week-04/ct-50713/<본인-github-아이디>
+# solutions/week-04/ct-50713/<본인-github-아이디>/Solution.java 또는 Solution.py 에 풀이 작성
 ```
 
 - 폴더 이름은 **본인 GitHub 아이디**와 정확히 같아야 합니다.

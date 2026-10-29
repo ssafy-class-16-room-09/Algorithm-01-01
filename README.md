@@ -125,7 +125,7 @@ solutions/
 
 | 문제 | 이슈 | 제출 | 제출자 |
 | --- | --- | --- | --- |
-| [코드트리 test_maximum_product_of_three_numbers · 세 수의 최대 곱](https://www.codetree.ai/ko/trails/complete/curated-cards/test-maximum-product-of-three-numbers/description) | [#141](https://github.com/ssafy-class-16-room-09/Algorithm-01-01/issues/141) | 0 | - |
+| [코드트리 50713 · 세 수의 최대 곱](https://www.codetree.ai/ko/trails/complete/curated-cards/test-maximum-product-of-three-numbers/description) | [#142](https://github.com/ssafy-class-16-room-09/Algorithm-01-01/issues/142) | 0 | - |
 | [정올 1733 · 오목](https://jungol.co.kr/problem/1733) | [#140](https://github.com/ssafy-class-16-room-09/Algorithm-01-01/issues/140) | 0 | - |
 | [프로그래머스 172927 · 광물 캐기](https://school.programmers.co.kr/learn/courses/30/lessons/172927) | [#137](https://github.com/ssafy-class-16-room-09/Algorithm-01-01/issues/137) | 0 | - |
 | [프로그래머스 72410 · 신규 아이디 추천](https://school.programmers.co.kr/learn/courses/30/lessons/72410) | [#138](https://github.com/ssafy-class-16-room-09/Algorithm-01-01/issues/138) | 0 | - |
