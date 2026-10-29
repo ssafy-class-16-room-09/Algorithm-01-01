@@ -163,7 +163,7 @@ test('지원하지 않는 플랫폼 링크는 등록이 실패한다', async () 
   const core = makeCore();
   await registerRun({ github, context: issueContext(OWNER, REPO, parent.number, bad), core });
   assert.ok(core._outputs.__failed);
-  assert.match(core._outputs.__failed, /SWEA, 프로그래머스, LeetCode 또는 코드트리/);
+  assert.match(core._outputs.__failed, /SWEA, 프로그래머스, LeetCode, 코드트리 또는 정올/);
 });
 
 test('LeetCode 링크만 입력하면 API에서 번호와 제목을 가져와 폴더와 sub-issue를 만든다', async () => {
@@ -366,4 +366,18 @@ test('코드트리 링크는 번호를 직접 적으면 그 번호를 쓴다', a
   await registerRun({ github, context: issueContext(OWNER, REPO, parent.number, b), core });
   assert.equal(core._outputs.__failed, undefined);
   assert.equal(readMeta('solutions/week-01/ct-ct_x').number, 'ct_x');
+});
+
+test('정올 링크는 URL에서 번호를 뽑고 제목은 직접 입력받아 폴더를 만든다', async () => {
+  const { data: parent } = await github.rest.issues.create({ title: '[문제] 정올' });
+  const b = body(1, 'https://jungol.co.kr/problem/1234 | 정올 문제');
+  const core = makeCore();
+  await registerRun({ github, context: issueContext(OWNER, REPO, parent.number, b), core });
+
+  assert.equal(core._outputs.__failed, undefined);
+  const meta = readMeta('solutions/week-01/jungol-1234');
+  assert.equal(meta.platform, 'jungol');
+  assert.equal(meta.platformLabel, '정올');
+  assert.equal(meta.number, '1234');
+  assert.equal(meta.title, '정올 문제');
 });
