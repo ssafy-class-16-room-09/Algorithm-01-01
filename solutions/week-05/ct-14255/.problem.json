@@ -1,0 +1,12 @@
+{
+  "issue": 159,
+  "parentIssue": 157,
+  "week": 5,
+  "platform": "ct",
+  "platformLabel": "코드트리",
+  "number": "14255",
+  "title": "정수 격자에서의 최소 차이 2",
+  "url": "https://www.codetree.ai/ko/trails/complete/curated-cards/challenge-minimum-difference-on-the-integer-grid-2/description",
+  "difficulty": null,
+  "deadline": null
+}
