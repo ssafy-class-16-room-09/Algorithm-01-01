@@ -28,7 +28,7 @@ import java.io.*;
  *  - 따라서 A의 (max - min)은 끝까지 B보다 같거나 작다.
  *  - B는 정답이 될 수 없으므로 버려도 되고, max 차원을 저장할 필요가 없다.
  */
-public class Main {
+public class Solution {
 
     static int N, MAX, MIN;
     static int[][] matrix;
