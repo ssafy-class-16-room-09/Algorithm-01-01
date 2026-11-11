@@ -106,17 +106,18 @@ solutions/
 
 <!-- algo-study:board:start -->
 
-> 마지막 갱신: 2026-11-06 · 등록된 문제 25개
+> 마지막 갱신: 2026-11-11 · 등록된 문제 25개
 
 ### 🏆 제출 순위
 
 | 순위 | 스터디원 | 푼 문제 | 진행률 |
 | --- | --- | --- | --- |
-| 🥇 | [@kjs2h](https://github.com/kjs2h) | 14 / 25 | 56% |
-| 🥈 | [@pjsWorkingPlus](https://github.com/pjsWorkingPlus) | 14 / 25 | 56% |
-| 🥉 | [@sejkim2](https://github.com/sejkim2) | 13 / 25 | 52% |
+| 🥇 | [@kjs2h](https://github.com/kjs2h) | 17 / 25 | 68% |
+| 🥈 | [@pjsWorkingPlus](https://github.com/pjsWorkingPlus) | 15 / 25 | 60% |
+| 🥉 | [@sejkim2](https://github.com/sejkim2) | 14 / 25 | 56% |
 | 4 | [@eunbin58](https://github.com/eunbin58) | 7 / 25 | 28% |
 | 5 | [@Taehoru](https://github.com/Taehoru) | 6 / 25 | 24% |
+| 6 | [@nyhryan](https://github.com/nyhryan) | 1 / 25 | 4% |
 
 ### 📚 주차별 문제
 
@@ -126,10 +127,10 @@ solutions/
 | 문제 | 이슈 | 제출 | 제출자 |
 | --- | --- | --- | --- |
 | [코드트리 14255 · 정수 격자에서의 최소 차이 2](https://www.codetree.ai/ko/trails/complete/curated-cards/challenge-minimum-difference-on-the-integer-grid-2/description) | [#159](https://github.com/ssafy-class-16-room-09/Algorithm-01-01/issues/159) | 0 | - |
-| [코드트리 14266 · 윷놀이 1D](https://www.codetree.ai/ko/trails/complete/curated-cards/challenge-yutnori-1d/description) | [#161](https://github.com/ssafy-class-16-room-09/Algorithm-01-01/issues/161) | 0 | - |
-| [정올 1696 · 미로만들기](https://jungol.co.kr/problem/1696?cursor=MTAsNSw1) | [#160](https://github.com/ssafy-class-16-room-09/Algorithm-01-01/issues/160) | 0 | - |
+| [코드트리 14266 · 윷놀이 1D](https://www.codetree.ai/ko/trails/complete/curated-cards/challenge-yutnori-1d/description) | [#161](https://github.com/ssafy-class-16-room-09/Algorithm-01-01/issues/161) | 2 | [@kjs2h](https://github.com/kjs2h), [@pjsWorkingPlus](https://github.com/pjsWorkingPlus) |
+| [정올 1696 · 미로만들기](https://jungol.co.kr/problem/1696?cursor=MTAsNSw1) | [#160](https://github.com/ssafy-class-16-room-09/Algorithm-01-01/issues/160) | 1 | [@kjs2h](https://github.com/kjs2h) |
 | [프로그래머스 389480 · 완전범죄](https://school.programmers.co.kr/learn/courses/30/lessons/389480) | [#162](https://github.com/ssafy-class-16-room-09/Algorithm-01-01/issues/162) | 0 | - |
-| [프로그래머스 43164 · 여행경로](https://school.programmers.co.kr/learn/courses/30/lessons/43164) | [#158](https://github.com/ssafy-class-16-room-09/Algorithm-01-01/issues/158) | 0 | - |
+| [프로그래머스 43164 · 여행경로](https://school.programmers.co.kr/learn/courses/30/lessons/43164) | [#158](https://github.com/ssafy-class-16-room-09/Algorithm-01-01/issues/158) | 1 | [@nyhryan](https://github.com/nyhryan) |
 
 </details>
 
@@ -140,9 +141,9 @@ solutions/
 | --- | --- | --- | --- |
 | [코드트리 50713 · 세 수의 최대 곱](https://www.codetree.ai/ko/trails/complete/curated-cards/test-maximum-product-of-three-numbers/description) | [#142](https://github.com/ssafy-class-16-room-09/Algorithm-01-01/issues/142) | 1 | [@kjs2h](https://github.com/kjs2h) |
 | [정올 1733 · 오목](https://jungol.co.kr/problem/1733) | [#140](https://github.com/ssafy-class-16-room-09/Algorithm-01-01/issues/140) | 0 | - |
-| [프로그래머스 172927 · 광물 캐기](https://school.programmers.co.kr/learn/courses/30/lessons/172927) | [#137](https://github.com/ssafy-class-16-room-09/Algorithm-01-01/issues/137) | 0 | - |
+| [프로그래머스 172927 · 광물 캐기](https://school.programmers.co.kr/learn/courses/30/lessons/172927) | [#137](https://github.com/ssafy-class-16-room-09/Algorithm-01-01/issues/137) | 1 | [@kjs2h](https://github.com/kjs2h) |
 | [프로그래머스 72410 · 신규 아이디 추천](https://school.programmers.co.kr/learn/courses/30/lessons/72410) | [#138](https://github.com/ssafy-class-16-room-09/Algorithm-01-01/issues/138) | 0 | - |
-| [SWEA 5209 · 최소 생산 비용](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWT-ZxiKcyIDFAVT) | [#139](https://github.com/ssafy-class-16-room-09/Algorithm-01-01/issues/139) | 0 | - |
+| [SWEA 5209 · 최소 생산 비용](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWT-ZxiKcyIDFAVT) | [#139](https://github.com/ssafy-class-16-room-09/Algorithm-01-01/issues/139) | 1 | [@sejkim2](https://github.com/sejkim2) |
 
 </details>
 
