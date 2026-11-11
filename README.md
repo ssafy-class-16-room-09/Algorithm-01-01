@@ -106,17 +106,18 @@ solutions/
 
 <!-- algo-study:board:start -->
 
-> 마지막 갱신: 2026-11-06 · 등록된 문제 25개
+> 마지막 갱신: 2026-11-11 · 등록된 문제 25개
 
 ### 🏆 제출 순위
 
 | 순위 | 스터디원 | 푼 문제 | 진행률 |
 | --- | --- | --- | --- |
-| 🥇 | [@kjs2h](https://github.com/kjs2h) | 14 / 25 | 56% |
-| 🥈 | [@pjsWorkingPlus](https://github.com/pjsWorkingPlus) | 14 / 25 | 56% |
-| 🥉 | [@sejkim2](https://github.com/sejkim2) | 13 / 25 | 52% |
-| 4 | [@eunbin58](https://github.com/eunbin58) | 7 / 25 | 28% |
-| 5 | [@Taehoru](https://github.com/Taehoru) | 6 / 25 | 24% |
+| 🥇 | [@kjs2h](https://github.com/kjs2h) | 23 / 25 | 92% |
+| 🥈 | [@pjsWorkingPlus](https://github.com/pjsWorkingPlus) | 16 / 25 | 64% |
+| 🥉 | [@sejkim2](https://github.com/sejkim2) | 16 / 25 | 64% |
+| 4 | [@Taehoru](https://github.com/Taehoru) | 9 / 25 | 36% |
+| 5 | [@eunbin58](https://github.com/eunbin58) | 8 / 25 | 32% |
+| 6 | [@nyhryan](https://github.com/nyhryan) | 1 / 25 | 4% |
 
 ### 📚 주차별 문제
 
@@ -125,11 +126,11 @@ solutions/
 
 | 문제 | 이슈 | 제출 | 제출자 |
 | --- | --- | --- | --- |
-| [코드트리 14255 · 정수 격자에서의 최소 차이 2](https://www.codetree.ai/ko/trails/complete/curated-cards/challenge-minimum-difference-on-the-integer-grid-2/description) | [#159](https://github.com/ssafy-class-16-room-09/Algorithm-01-01/issues/159) | 0 | - |
-| [코드트리 14266 · 윷놀이 1D](https://www.codetree.ai/ko/trails/complete/curated-cards/challenge-yutnori-1d/description) | [#161](https://github.com/ssafy-class-16-room-09/Algorithm-01-01/issues/161) | 0 | - |
-| [정올 1696 · 미로만들기](https://jungol.co.kr/problem/1696?cursor=MTAsNSw1) | [#160](https://github.com/ssafy-class-16-room-09/Algorithm-01-01/issues/160) | 0 | - |
-| [프로그래머스 389480 · 완전범죄](https://school.programmers.co.kr/learn/courses/30/lessons/389480) | [#162](https://github.com/ssafy-class-16-room-09/Algorithm-01-01/issues/162) | 0 | - |
-| [프로그래머스 43164 · 여행경로](https://school.programmers.co.kr/learn/courses/30/lessons/43164) | [#158](https://github.com/ssafy-class-16-room-09/Algorithm-01-01/issues/158) | 0 | - |
+| [코드트리 14255 · 정수 격자에서의 최소 차이 2](https://www.codetree.ai/ko/trails/complete/curated-cards/challenge-minimum-difference-on-the-integer-grid-2/description) | [#159](https://github.com/ssafy-class-16-room-09/Algorithm-01-01/issues/159) | 1 | [@kjs2h](https://github.com/kjs2h) |
+| [코드트리 14266 · 윷놀이 1D](https://www.codetree.ai/ko/trails/complete/curated-cards/challenge-yutnori-1d/description) | [#161](https://github.com/ssafy-class-16-room-09/Algorithm-01-01/issues/161) | 2 | [@kjs2h](https://github.com/kjs2h), [@pjsWorkingPlus](https://github.com/pjsWorkingPlus) |
+| [정올 1696 · 미로만들기](https://jungol.co.kr/problem/1696?cursor=MTAsNSw1) | [#160](https://github.com/ssafy-class-16-room-09/Algorithm-01-01/issues/160) | 2 | [@kjs2h](https://github.com/kjs2h), [@pjsWorkingPlus](https://github.com/pjsWorkingPlus) |
+| [프로그래머스 389480 · 완전범죄](https://school.programmers.co.kr/learn/courses/30/lessons/389480) | [#162](https://github.com/ssafy-class-16-room-09/Algorithm-01-01/issues/162) | 1 | [@kjs2h](https://github.com/kjs2h) |
+| [프로그래머스 43164 · 여행경로](https://school.programmers.co.kr/learn/courses/30/lessons/43164) | [#158](https://github.com/ssafy-class-16-room-09/Algorithm-01-01/issues/158) | 2 | [@kjs2h](https://github.com/kjs2h), [@nyhryan](https://github.com/nyhryan) |
 
 </details>
 
@@ -138,11 +139,11 @@ solutions/
 
 | 문제 | 이슈 | 제출 | 제출자 |
 | --- | --- | --- | --- |
-| [코드트리 50713 · 세 수의 최대 곱](https://www.codetree.ai/ko/trails/complete/curated-cards/test-maximum-product-of-three-numbers/description) | [#142](https://github.com/ssafy-class-16-room-09/Algorithm-01-01/issues/142) | 1 | [@kjs2h](https://github.com/kjs2h) |
-| [정올 1733 · 오목](https://jungol.co.kr/problem/1733) | [#140](https://github.com/ssafy-class-16-room-09/Algorithm-01-01/issues/140) | 0 | - |
-| [프로그래머스 172927 · 광물 캐기](https://school.programmers.co.kr/learn/courses/30/lessons/172927) | [#137](https://github.com/ssafy-class-16-room-09/Algorithm-01-01/issues/137) | 0 | - |
-| [프로그래머스 72410 · 신규 아이디 추천](https://school.programmers.co.kr/learn/courses/30/lessons/72410) | [#138](https://github.com/ssafy-class-16-room-09/Algorithm-01-01/issues/138) | 0 | - |
-| [SWEA 5209 · 최소 생산 비용](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWT-ZxiKcyIDFAVT) | [#139](https://github.com/ssafy-class-16-room-09/Algorithm-01-01/issues/139) | 0 | - |
+| [코드트리 50713 · 세 수의 최대 곱](https://www.codetree.ai/ko/trails/complete/curated-cards/test-maximum-product-of-three-numbers/description) | [#142](https://github.com/ssafy-class-16-room-09/Algorithm-01-01/issues/142) | 3 | [@Taehoru](https://github.com/Taehoru), [@kjs2h](https://github.com/kjs2h), [@sejkim2](https://github.com/sejkim2) |
+| [정올 1733 · 오목](https://jungol.co.kr/problem/1733) | [#140](https://github.com/ssafy-class-16-room-09/Algorithm-01-01/issues/140) | 2 | [@Taehoru](https://github.com/Taehoru), [@kjs2h](https://github.com/kjs2h) |
+| [프로그래머스 172927 · 광물 캐기](https://school.programmers.co.kr/learn/courses/30/lessons/172927) | [#137](https://github.com/ssafy-class-16-room-09/Algorithm-01-01/issues/137) | 2 | [@kjs2h](https://github.com/kjs2h), [@sejkim2](https://github.com/sejkim2) |
+| [프로그래머스 72410 · 신규 아이디 추천](https://school.programmers.co.kr/learn/courses/30/lessons/72410) | [#138](https://github.com/ssafy-class-16-room-09/Algorithm-01-01/issues/138) | 3 | [@Taehoru](https://github.com/Taehoru), [@eunbin58](https://github.com/eunbin58), [@kjs2h](https://github.com/kjs2h) |
+| [SWEA 5209 · 최소 생산 비용](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWT-ZxiKcyIDFAVT) | [#139](https://github.com/ssafy-class-16-room-09/Algorithm-01-01/issues/139) | 1 | [@sejkim2](https://github.com/sejkim2) |
 
 </details>
 
@@ -152,7 +153,7 @@ solutions/
 | 문제 | 이슈 | 제출 | 제출자 |
 | --- | --- | --- | --- |
 | [코드트리 1644232 · 토스트 계란틀](https://www.codetree.ai/ko/frequent-problems/all/problems/toast-eggmold/description) | [#111](https://github.com/ssafy-class-16-room-09/Algorithm-01-01/issues/111) | 4 | [@Taehoru](https://github.com/Taehoru), [@kjs2h](https://github.com/kjs2h), [@pjsWorkingPlus](https://github.com/pjsWorkingPlus), [@sejkim2](https://github.com/sejkim2) |
-| [프로그래머스 142085 · 디펜스 게임](https://school.programmers.co.kr/learn/courses/30/lessons/142085) | [#109](https://github.com/ssafy-class-16-room-09/Algorithm-01-01/issues/109) | 4 | [@Taehoru](https://github.com/Taehoru), [@eunbin58](https://github.com/eunbin58), [@pjsWorkingPlus](https://github.com/pjsWorkingPlus), [@sejkim2](https://github.com/sejkim2) |
+| [프로그래머스 142085 · 디펜스 게임](https://school.programmers.co.kr/learn/courses/30/lessons/142085) | [#109](https://github.com/ssafy-class-16-room-09/Algorithm-01-01/issues/109) | 5 | [@Taehoru](https://github.com/Taehoru), [@eunbin58](https://github.com/eunbin58), [@kjs2h](https://github.com/kjs2h), [@pjsWorkingPlus](https://github.com/pjsWorkingPlus), [@sejkim2](https://github.com/sejkim2) |
 | [프로그래머스 17680 · [1차] 캐시](https://school.programmers.co.kr/learn/courses/30/lessons/17680) | [#108](https://github.com/ssafy-class-16-room-09/Algorithm-01-01/issues/108) | 4 | [@eunbin58](https://github.com/eunbin58), [@kjs2h](https://github.com/kjs2h), [@pjsWorkingPlus](https://github.com/pjsWorkingPlus), [@sejkim2](https://github.com/sejkim2) |
 | [프로그래머스 250121 · 데이터 분석](https://school.programmers.co.kr/learn/courses/30/lessons/250121) | [#107](https://github.com/ssafy-class-16-room-09/Algorithm-01-01/issues/107) | 5 | [@Taehoru](https://github.com/Taehoru), [@eunbin58](https://github.com/eunbin58), [@kjs2h](https://github.com/kjs2h), [@pjsWorkingPlus](https://github.com/pjsWorkingPlus), [@sejkim2](https://github.com/sejkim2) |
 | [SWEA 1244 · 최대 상금](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV15Khn6AN0CFAYD) | [#110](https://github.com/ssafy-class-16-room-09/Algorithm-01-01/issues/110) | 3 | [@kjs2h](https://github.com/kjs2h), [@pjsWorkingPlus](https://github.com/pjsWorkingPlus), [@sejkim2](https://github.com/sejkim2) |
