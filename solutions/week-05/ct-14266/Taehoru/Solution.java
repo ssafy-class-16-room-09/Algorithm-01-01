@@ -3,7 +3,7 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 
-public class Main {
+public class Solution {
 
     static int n, m, k;
     static int[] nums;
@@ -35,35 +35,25 @@ public class Main {
             int prev = position[i];
 
             // 이번 턴에 고른 i번 말을 움직이고 새 위치 저장
+            // m을 넘어가면 m에서 멈추게
             position[i] = Math.min(m, prev + nums[depth]);
 
             // ==debug==
             //  if (depth < 2) {
             //      System.out.println("depth=" + depth + " i=" + i + " " + Arrays.toString(position));
             //  }
-            /*
+            /* 디버깅 결과값
             depth=0 i=1 [0, 3, 1, 1]
-            
             depth=1 i=1 [0, 6, 1, 1]
-
             depth=1 i=2 [0, 3, 5, 1]
-
-            depth=1 i=3 [0, 3, 1, 5]
-            
-            depth=0 i=2 [0, 1, 3, 1]
-            
-            depth=1 i=1 [0, 5, 3, 1]
-            
-            depth=1 i=2 [0, 1, 6, 1]
-            
-            depth=1 i=3 [0, 1, 3, 5]
-            
-            depth=0 i=3 [0, 1, 1, 3]
-            
-            depth=1 i=1 [0, 5, 1, 3]
-            
-            depth=1 i=2 [0, 1, 5, 3]
-            
+            depth=1 i=3 [0, 3, 1, 5]           
+            depth=0 i=2 [0, 1, 3, 1]           
+            depth=1 i=1 [0, 5, 3, 1]           
+            depth=1 i=2 [0, 1, 6, 1]           
+            depth=1 i=3 [0, 1, 3, 5]           
+            depth=0 i=3 [0, 1, 1, 3]          
+            depth=1 i=1 [0, 5, 1, 3]         
+            depth=1 i=2 [0, 1, 5, 3]        
             depth=1 i=3 [0, 1, 1, 6]
             ...
             */
