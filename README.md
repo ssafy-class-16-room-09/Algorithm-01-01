@@ -115,7 +115,7 @@ solutions/
 | 🥇 | [@kjs2h](https://github.com/kjs2h) | 23 / 30 | 77% |
 | 🥈 | [@pjsWorkingPlus](https://github.com/pjsWorkingPlus) | 17 / 30 | 57% |
 | 🥉 | [@sejkim2](https://github.com/sejkim2) | 17 / 30 | 57% |
-| 4 | [@eunbin58](https://github.com/eunbin58) | 9 / 30 | 30% |
+| 4 | [@eunbin58](https://github.com/eunbin58) | 10 / 30 | 33% |
 | 5 | [@Taehoru](https://github.com/Taehoru) | 9 / 30 | 30% |
 | 6 | [@nyhryan](https://github.com/nyhryan) | 5 / 30 | 17% |
 
@@ -143,7 +143,7 @@ solutions/
 | [코드트리 14266 · 윷놀이 1D](https://www.codetree.ai/ko/trails/complete/curated-cards/challenge-yutnori-1d/description) | [#161](https://github.com/ssafy-class-16-room-09/Algorithm-01-01/issues/161) | 3 | [@kjs2h](https://github.com/kjs2h), [@nyhryan](https://github.com/nyhryan), [@pjsWorkingPlus](https://github.com/pjsWorkingPlus) |
 | [정올 1696 · 미로만들기](https://jungol.co.kr/problem/1696?cursor=MTAsNSw1) | [#160](https://github.com/ssafy-class-16-room-09/Algorithm-01-01/issues/160) | 3 | [@kjs2h](https://github.com/kjs2h), [@nyhryan](https://github.com/nyhryan), [@pjsWorkingPlus](https://github.com/pjsWorkingPlus) |
 | [프로그래머스 389480 · 완전범죄](https://school.programmers.co.kr/learn/courses/30/lessons/389480) | [#162](https://github.com/ssafy-class-16-room-09/Algorithm-01-01/issues/162) | 2 | [@kjs2h](https://github.com/kjs2h), [@nyhryan](https://github.com/nyhryan) |
-| [프로그래머스 43164 · 여행경로](https://school.programmers.co.kr/learn/courses/30/lessons/43164) | [#158](https://github.com/ssafy-class-16-room-09/Algorithm-01-01/issues/158) | 2 | [@kjs2h](https://github.com/kjs2h), [@nyhryan](https://github.com/nyhryan) |
+| [프로그래머스 43164 · 여행경로](https://school.programmers.co.kr/learn/courses/30/lessons/43164) | [#158](https://github.com/ssafy-class-16-room-09/Algorithm-01-01/issues/158) | 3 | [@eunbin58](https://github.com/eunbin58), [@kjs2h](https://github.com/kjs2h), [@nyhryan](https://github.com/nyhryan) |
 
 </details>
 
