@@ -3,7 +3,7 @@
 결과는 100억번 계산해야되어서 바로 터져버림
 */
 
-// public class Main {
+// public class Solution {
 
 //         static int n, q, a, b, count;
 //         static Queue<Integer> qu = new LinkedList<>();
