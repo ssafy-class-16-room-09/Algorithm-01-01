@@ -47,13 +47,14 @@
 //         }
 //     }
 // }
+//
 
 import java.util.*;
 import java.io.*;
 
 // 누적합 강의를 받고 난 이후
 
-public class Main {
+public class Solution {
 
     static int n, q, a, b;
 
