@@ -117,7 +117,7 @@ solutions/
 | 🥉 | [@pjsWorkingPlus](https://github.com/pjsWorkingPlus) | 18 / 35 | 51% |
 | 4 | [@eunbin58](https://github.com/eunbin58) | 10 / 35 | 29% |
 | 5 | [@Taehoru](https://github.com/Taehoru) | 10 / 35 | 29% |
-| 6 | [@nyhryan](https://github.com/nyhryan) | 5 / 35 | 14% |
+| 6 | [@nyhryan](https://github.com/nyhryan) | 9 / 35 | 26% |
 
 ### 📚 주차별 문제
 
@@ -140,10 +140,10 @@ solutions/
 | 문제 | 이슈 | 제출 | 제출자 |
 | --- | --- | --- | --- |
 | [코드트리 5215 · 범위 내에 있는 점의 수 2](https://www.codetree.ai/ko/trails/complete/curated-cards/challenge-the-number-of-points-within-the-range-2/description) | [#184](https://github.com/ssafy-class-16-room-09/Algorithm-01-01/issues/184) | 1 | [@kjs2h](https://github.com/kjs2h) |
-| [프로그래머스 169199 · 리코쳇 로봇](https://school.programmers.co.kr/learn/courses/30/lessons/169199) | [#185](https://github.com/ssafy-class-16-room-09/Algorithm-01-01/issues/185) | 1 | [@kjs2h](https://github.com/kjs2h) |
-| [프로그래머스 84512 · 모음사전](https://school.programmers.co.kr/learn/courses/30/lessons/84512) | [#183](https://github.com/ssafy-class-16-room-09/Algorithm-01-01/issues/183) | 1 | [@kjs2h](https://github.com/kjs2h) |
-| [프로그래머스 92342 · 양궁대회](https://school.programmers.co.kr/learn/courses/30/lessons/92342) | [#186](https://github.com/ssafy-class-16-room-09/Algorithm-01-01/issues/186) | 1 | [@kjs2h](https://github.com/kjs2h) |
-| [SWEA 6190 · 정곤이의 단조 증가하는 수](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWcPjEuKAFgDFAU4) | [#189](https://github.com/ssafy-class-16-room-09/Algorithm-01-01/issues/189) | 0 | - |
+| [프로그래머스 169199 · 리코쳇 로봇](https://school.programmers.co.kr/learn/courses/30/lessons/169199) | [#185](https://github.com/ssafy-class-16-room-09/Algorithm-01-01/issues/185) | 2 | [@kjs2h](https://github.com/kjs2h), [@nyhryan](https://github.com/nyhryan) |
+| [프로그래머스 84512 · 모음사전](https://school.programmers.co.kr/learn/courses/30/lessons/84512) | [#183](https://github.com/ssafy-class-16-room-09/Algorithm-01-01/issues/183) | 2 | [@kjs2h](https://github.com/kjs2h), [@nyhryan](https://github.com/nyhryan) |
+| [프로그래머스 92342 · 양궁대회](https://school.programmers.co.kr/learn/courses/30/lessons/92342) | [#186](https://github.com/ssafy-class-16-room-09/Algorithm-01-01/issues/186) | 2 | [@kjs2h](https://github.com/kjs2h), [@nyhryan](https://github.com/nyhryan) |
+| [SWEA 6190 · 정곤이의 단조 증가하는 수](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWcPjEuKAFgDFAU4) | [#189](https://github.com/ssafy-class-16-room-09/Algorithm-01-01/issues/189) | 1 | [@nyhryan](https://github.com/nyhryan) |
 
 </details>
 
