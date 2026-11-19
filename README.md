@@ -106,30 +106,43 @@ solutions/
 
 <!-- algo-study:board:start -->
 
-> 마지막 갱신: 2026-11-12 · 등록된 문제 30개
+> 마지막 갱신: 2026-11-19 · 등록된 문제 35개
 
 ### 🏆 제출 순위
 
 | 순위 | 스터디원 | 푼 문제 | 진행률 |
 | --- | --- | --- | --- |
-| 🥇 | [@kjs2h](https://github.com/kjs2h) | 23 / 30 | 77% |
-| 🥈 | [@pjsWorkingPlus](https://github.com/pjsWorkingPlus) | 17 / 30 | 57% |
-| 🥉 | [@sejkim2](https://github.com/sejkim2) | 17 / 30 | 57% |
-| 4 | [@eunbin58](https://github.com/eunbin58) | 9 / 30 | 30% |
-| 5 | [@Taehoru](https://github.com/Taehoru) | 9 / 30 | 30% |
-| 6 | [@nyhryan](https://github.com/nyhryan) | 5 / 30 | 17% |
+| 🥇 | [@kjs2h](https://github.com/kjs2h) | 27 / 35 | 77% |
+| 🥈 | [@sejkim2](https://github.com/sejkim2) | 19 / 35 | 54% |
+| 🥉 | [@pjsWorkingPlus](https://github.com/pjsWorkingPlus) | 18 / 35 | 51% |
+| 4 | [@eunbin58](https://github.com/eunbin58) | 10 / 35 | 29% |
+| 5 | [@Taehoru](https://github.com/Taehoru) | 10 / 35 | 29% |
+| 6 | [@nyhryan](https://github.com/nyhryan) | 5 / 35 | 14% |
 
 ### 📚 주차별 문제
 
 <details open>
+<summary><b>week-07</b> (5문제)</summary>
+
+| 문제 | 이슈 | 제출 | 제출자 |
+| --- | --- | --- | --- |
+| [정올 1681 · 해밀턴 순환회로](https://jungol.co.kr/problem/1681) | [#220](https://github.com/ssafy-class-16-room-09/Algorithm-01-01/issues/220) | 0 | - |
+| [프로그래머스 12987 · 숫자 게임](https://school.programmers.co.kr/learn/courses/30/lessons/12987) | [#219](https://github.com/ssafy-class-16-room-09/Algorithm-01-01/issues/219) | 0 | - |
+| [프로그래머스 214288 · 상담원 인원](https://school.programmers.co.kr/learn/courses/30/lessons/214288) | [#223](https://github.com/ssafy-class-16-room-09/Algorithm-01-01/issues/223) | 0 | - |
+| [프로그래머스 43238 · 입국심사](https://school.programmers.co.kr/learn/courses/30/lessons/43238) | [#221](https://github.com/ssafy-class-16-room-09/Algorithm-01-01/issues/221) | 0 | - |
+| [프로그래머스 468373 · 바이러스 파이프](https://school.programmers.co.kr/learn/courses/30/lessons/468373) | [#222](https://github.com/ssafy-class-16-room-09/Algorithm-01-01/issues/222) | 0 | - |
+
+</details>
+
+<details>
 <summary><b>week-06</b> (5문제)</summary>
 
 | 문제 | 이슈 | 제출 | 제출자 |
 | --- | --- | --- | --- |
-| [코드트리 5215 · 범위 내에 있는 점의 수 2](https://www.codetree.ai/ko/trails/complete/curated-cards/challenge-the-number-of-points-within-the-range-2/description) | [#184](https://github.com/ssafy-class-16-room-09/Algorithm-01-01/issues/184) | 0 | - |
-| [프로그래머스 169199 · 리코쳇 로봇](https://school.programmers.co.kr/learn/courses/30/lessons/169199) | [#185](https://github.com/ssafy-class-16-room-09/Algorithm-01-01/issues/185) | 0 | - |
-| [프로그래머스 84512 · 모음사전](https://school.programmers.co.kr/learn/courses/30/lessons/84512) | [#183](https://github.com/ssafy-class-16-room-09/Algorithm-01-01/issues/183) | 0 | - |
-| [프로그래머스 92342 · 양궁대회](https://school.programmers.co.kr/learn/courses/30/lessons/92342) | [#186](https://github.com/ssafy-class-16-room-09/Algorithm-01-01/issues/186) | 0 | - |
+| [코드트리 5215 · 범위 내에 있는 점의 수 2](https://www.codetree.ai/ko/trails/complete/curated-cards/challenge-the-number-of-points-within-the-range-2/description) | [#184](https://github.com/ssafy-class-16-room-09/Algorithm-01-01/issues/184) | 1 | [@kjs2h](https://github.com/kjs2h) |
+| [프로그래머스 169199 · 리코쳇 로봇](https://school.programmers.co.kr/learn/courses/30/lessons/169199) | [#185](https://github.com/ssafy-class-16-room-09/Algorithm-01-01/issues/185) | 1 | [@kjs2h](https://github.com/kjs2h) |
+| [프로그래머스 84512 · 모음사전](https://school.programmers.co.kr/learn/courses/30/lessons/84512) | [#183](https://github.com/ssafy-class-16-room-09/Algorithm-01-01/issues/183) | 1 | [@kjs2h](https://github.com/kjs2h) |
+| [프로그래머스 92342 · 양궁대회](https://school.programmers.co.kr/learn/courses/30/lessons/92342) | [#186](https://github.com/ssafy-class-16-room-09/Algorithm-01-01/issues/186) | 1 | [@kjs2h](https://github.com/kjs2h) |
 | [SWEA 6190 · 정곤이의 단조 증가하는 수](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWcPjEuKAFgDFAU4) | [#189](https://github.com/ssafy-class-16-room-09/Algorithm-01-01/issues/189) | 0 | - |
 
 </details>
@@ -140,10 +153,10 @@ solutions/
 | 문제 | 이슈 | 제출 | 제출자 |
 | --- | --- | --- | --- |
 | [코드트리 14255 · 정수 격자에서의 최소 차이 2](https://www.codetree.ai/ko/trails/complete/curated-cards/challenge-minimum-difference-on-the-integer-grid-2/description) | [#159](https://github.com/ssafy-class-16-room-09/Algorithm-01-01/issues/159) | 3 | [@kjs2h](https://github.com/kjs2h), [@nyhryan](https://github.com/nyhryan), [@pjsWorkingPlus](https://github.com/pjsWorkingPlus) |
-| [코드트리 14266 · 윷놀이 1D](https://www.codetree.ai/ko/trails/complete/curated-cards/challenge-yutnori-1d/description) | [#161](https://github.com/ssafy-class-16-room-09/Algorithm-01-01/issues/161) | 3 | [@kjs2h](https://github.com/kjs2h), [@nyhryan](https://github.com/nyhryan), [@pjsWorkingPlus](https://github.com/pjsWorkingPlus) |
-| [정올 1696 · 미로만들기](https://jungol.co.kr/problem/1696?cursor=MTAsNSw1) | [#160](https://github.com/ssafy-class-16-room-09/Algorithm-01-01/issues/160) | 3 | [@kjs2h](https://github.com/kjs2h), [@nyhryan](https://github.com/nyhryan), [@pjsWorkingPlus](https://github.com/pjsWorkingPlus) |
-| [프로그래머스 389480 · 완전범죄](https://school.programmers.co.kr/learn/courses/30/lessons/389480) | [#162](https://github.com/ssafy-class-16-room-09/Algorithm-01-01/issues/162) | 2 | [@kjs2h](https://github.com/kjs2h), [@nyhryan](https://github.com/nyhryan) |
-| [프로그래머스 43164 · 여행경로](https://school.programmers.co.kr/learn/courses/30/lessons/43164) | [#158](https://github.com/ssafy-class-16-room-09/Algorithm-01-01/issues/158) | 2 | [@kjs2h](https://github.com/kjs2h), [@nyhryan](https://github.com/nyhryan) |
+| [코드트리 14266 · 윷놀이 1D](https://www.codetree.ai/ko/trails/complete/curated-cards/challenge-yutnori-1d/description) | [#161](https://github.com/ssafy-class-16-room-09/Algorithm-01-01/issues/161) | 4 | [@Taehoru](https://github.com/Taehoru), [@kjs2h](https://github.com/kjs2h), [@nyhryan](https://github.com/nyhryan), [@pjsWorkingPlus](https://github.com/pjsWorkingPlus) |
+| [정올 1696 · 미로만들기](https://jungol.co.kr/problem/1696?cursor=MTAsNSw1) | [#160](https://github.com/ssafy-class-16-room-09/Algorithm-01-01/issues/160) | 4 | [@kjs2h](https://github.com/kjs2h), [@nyhryan](https://github.com/nyhryan), [@pjsWorkingPlus](https://github.com/pjsWorkingPlus), [@sejkim2](https://github.com/sejkim2) |
+| [프로그래머스 389480 · 완전범죄](https://school.programmers.co.kr/learn/courses/30/lessons/389480) | [#162](https://github.com/ssafy-class-16-room-09/Algorithm-01-01/issues/162) | 4 | [@kjs2h](https://github.com/kjs2h), [@nyhryan](https://github.com/nyhryan), [@pjsWorkingPlus](https://github.com/pjsWorkingPlus), [@sejkim2](https://github.com/sejkim2) |
+| [프로그래머스 43164 · 여행경로](https://school.programmers.co.kr/learn/courses/30/lessons/43164) | [#158](https://github.com/ssafy-class-16-room-09/Algorithm-01-01/issues/158) | 3 | [@eunbin58](https://github.com/eunbin58), [@kjs2h](https://github.com/kjs2h), [@nyhryan](https://github.com/nyhryan) |
 
 </details>
 
@@ -200,3 +213,39 @@ solutions/
 </details>
 
 <!-- algo-study:board:end -->
+
+## 🙅 미제출 현황
+
+> 2026-11-19 기준 · 수동 집계 (현황판과 달리 자동 갱신되지 않습니다)
+> ⏳ = PR은 열려 있지만 아직 머지 전 · nyhryan은 week-05부터 집계
+
+| 주차 | 문제 | 미제출 | 머지 대기 ⏳ |
+| --- | --- | --- | --- |
+| week-01 | 소수 찾기 | eunbin58 | |
+| week-01 | 구명보트 | eunbin58 | |
+| week-01 | 후보키 | sejkim2, eunbin58, Taehoru | |
+| week-01 | 이중 최단 경로 문제 | eunbin58, Taehoru | |
+| week-01 | 가장 큰 안전한 집합 | kjs2h, sejkim2, pjsWorkingPlus, eunbin58, Taehoru | |
+| week-02 | 막대기 나누기 | Taehoru | |
+| week-02 | 호텔 대실 | Taehoru | |
+| week-02 | 단체사진 찍기 | eunbin58, Taehoru | |
+| week-02 | Ladder-1 | Taehoru | |
+| week-03 | 토스트 계란틀 | eunbin58 | |
+| week-03 | [1차] 캐시 | Taehoru | |
+| week-03 | 최대 상금 | eunbin58, Taehoru | |
+| week-04 | 세 수의 최대 곱 | pjsWorkingPlus | |
+| week-04 | 오목 | sejkim2, pjsWorkingPlus, eunbin58 | |
+| week-04 | 광물 캐기 | pjsWorkingPlus, eunbin58, Taehoru | |
+| week-04 | 신규 아이디 추천 | pjsWorkingPlus | |
+| week-04 | 최소 생산 비용 | kjs2h, pjsWorkingPlus, eunbin58, Taehoru | |
+| week-05 | 정수 격자에서의 최소 차이 2 | sejkim2, eunbin58, Taehoru | |
+| week-05 | 윷놀이 1D | sejkim2, eunbin58 | |
+| week-05 | 미로만들기 | eunbin58, Taehoru | |
+| week-05 | 완전범죄 | eunbin58, Taehoru | |
+| week-05 | 여행경로 | sejkim2, pjsWorkingPlus, Taehoru | |
+| week-06 | 범위 내에 있는 점의 수 2 | - | sejkim2, pjsWorkingPlus, eunbin58, Taehoru, nyhryan |
+| week-06 | 리코쳇 로봇 | - | sejkim2, pjsWorkingPlus, eunbin58, Taehoru, nyhryan |
+| week-06 | 모음사전 | - | sejkim2, pjsWorkingPlus, eunbin58, Taehoru, nyhryan |
+| week-06 | 양궁대회 | pjsWorkingPlus, eunbin58, Taehoru | sejkim2, nyhryan |
+| week-06 | 정곤이의 단조 증가하는 수 | Taehoru | kjs2h, sejkim2, pjsWorkingPlus, eunbin58, nyhryan |
+| week-07 | 전체 5문제 | 전원 (2026-11-19 등록) | |

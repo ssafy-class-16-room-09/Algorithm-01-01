@@ -1,0 +1,12 @@
+{
+  "issue": 220,
+  "parentIssue": 218,
+  "week": 7,
+  "platform": "jungol",
+  "platformLabel": "정올",
+  "number": "1681",
+  "title": "해밀턴 순환회로",
+  "url": "https://jungol.co.kr/problem/1681",
+  "difficulty": "Silver 1",
+  "deadline": "2026-11-25"
+}
