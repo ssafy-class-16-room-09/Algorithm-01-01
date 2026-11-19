@@ -213,3 +213,39 @@ solutions/
 </details>
 
 <!-- algo-study:board:end -->
+
+## 🙅 미제출 현황
+
+> 2026-11-19 기준 · 수동 집계 (현황판과 달리 자동 갱신되지 않습니다)
+> ⏳ = PR은 열려 있지만 아직 머지 전 · nyhryan은 week-05부터 집계
+
+| 주차 | 문제 | 미제출 | 머지 대기 ⏳ |
+| --- | --- | --- | --- |
+| week-01 | 소수 찾기 | eunbin58 | |
+| week-01 | 구명보트 | eunbin58 | |
+| week-01 | 후보키 | sejkim2, eunbin58, Taehoru | |
+| week-01 | 이중 최단 경로 문제 | eunbin58, Taehoru | |
+| week-01 | 가장 큰 안전한 집합 | kjs2h, sejkim2, pjsWorkingPlus, eunbin58, Taehoru | |
+| week-02 | 막대기 나누기 | Taehoru | |
+| week-02 | 호텔 대실 | Taehoru | |
+| week-02 | 단체사진 찍기 | eunbin58, Taehoru | |
+| week-02 | Ladder-1 | Taehoru | |
+| week-03 | 토스트 계란틀 | eunbin58 | |
+| week-03 | [1차] 캐시 | Taehoru | |
+| week-03 | 최대 상금 | eunbin58, Taehoru | |
+| week-04 | 세 수의 최대 곱 | pjsWorkingPlus | |
+| week-04 | 오목 | sejkim2, pjsWorkingPlus, eunbin58 | |
+| week-04 | 광물 캐기 | pjsWorkingPlus, eunbin58, Taehoru | |
+| week-04 | 신규 아이디 추천 | pjsWorkingPlus | |
+| week-04 | 최소 생산 비용 | kjs2h, pjsWorkingPlus, eunbin58, Taehoru | |
+| week-05 | 정수 격자에서의 최소 차이 2 | sejkim2, eunbin58, Taehoru | |
+| week-05 | 윷놀이 1D | sejkim2, eunbin58 | |
+| week-05 | 미로만들기 | eunbin58, Taehoru | |
+| week-05 | 완전범죄 | eunbin58, Taehoru | |
+| week-05 | 여행경로 | sejkim2, pjsWorkingPlus, Taehoru | |
+| week-06 | 범위 내에 있는 점의 수 2 | - | sejkim2, pjsWorkingPlus, eunbin58, Taehoru, nyhryan |
+| week-06 | 리코쳇 로봇 | - | sejkim2, pjsWorkingPlus, eunbin58, Taehoru, nyhryan |
+| week-06 | 모음사전 | - | sejkim2, pjsWorkingPlus, eunbin58, Taehoru, nyhryan |
+| week-06 | 양궁대회 | pjsWorkingPlus, eunbin58, Taehoru | sejkim2, nyhryan |
+| week-06 | 정곤이의 단조 증가하는 수 | Taehoru | kjs2h, sejkim2, pjsWorkingPlus, eunbin58, nyhryan |
+| week-07 | 전체 5문제 | 전원 (2026-11-19 등록) | |
